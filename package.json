@@ -1,9 +1,8 @@
 {
-  "name": "quiz",
+  "name": "easyquiz",
   "version": "1.0.0",
   "main": "index.js",
-  "publicPath": "/quiznow",
-  "homepage": "https://tuhalang.github.io/quiznow/",
+  "homepage": "https://easyquiz.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "5.11.6",
     "@testing-library/react": "11.2.2",
@@ -41,7 +40,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "PUBLIC_URL=/quiznow react-scripts build ",
+    "build": "react-scripts build ",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

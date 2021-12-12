@@ -223,7 +223,7 @@ export default function QuizPage({ match: { params: { id } } }) {
                   <UncontrolledAlert className="alert-with-icon" color="info">
                     <span data-notify="icon" className="tim-icons icon-trophy" />
                     <span>
-                      <b>Heads up! -</b>
+                      <b>Heads up! - </b>
                       Let's answer this quiz now !!!
                     </span>
                   </UncontrolledAlert>
@@ -231,7 +231,7 @@ export default function QuizPage({ match: { params: { id } } }) {
                   : <UncontrolledAlert className="alert-with-icon" color="info">
                     <span data-notify="icon" className="tim-icons icon-trophy" />
                     <span>
-                      <b>Heads up! -</b>
+                      <b>Heads up! - </b>
                       Let's vote the best answer now !!!
                     </span>
                   </UncontrolledAlert>
@@ -240,7 +240,7 @@ export default function QuizPage({ match: { params: { id } } }) {
                   <UncontrolledAlert className="alert-with-icon" color="primary">
                     <span data-notify="icon" className="tim-icons icon-coins" />
                     <span>
-                      <b>Congrats! -</b>
+                      <b>Congrats! - </b>
                       You are winner !!!
                     </span>
                   </UncontrolledAlert> 
@@ -248,7 +248,7 @@ export default function QuizPage({ match: { params: { id } } }) {
                   : <UncontrolledAlert className="alert-with-icon" color="success">
                     <span data-notify="icon" className="tim-icons icon-bell-55" />
                     <span>
-                      <b>Well done! -</b>
+                      <b>Well done! - </b>
                       This quiz is finished !!!
                     </span>
                   </UncontrolledAlert>
@@ -269,7 +269,9 @@ export default function QuizPage({ match: { params: { id } } }) {
                     {quiz.content}
                     <br />
                     <br />
-                    <small> - {quiz.owner}</small>
+                    <small>Reward: {quiz.reward / 1e18} (TOMO)</small>
+                    <br />
+                    <small>Author: {quiz.owner}</small>
                   </p>
 
 

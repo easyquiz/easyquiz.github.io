@@ -23,7 +23,7 @@ sagaMiddleware.run(rootSage)
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter basename="/quiznow">
+    <BrowserRouter>
       <Switch>
         <Route path="/quiznow" render={(props) => <Index {...props} />} />
         <Route

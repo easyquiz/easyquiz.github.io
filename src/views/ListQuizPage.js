@@ -58,13 +58,16 @@ export default function ListQuiz() {
                           {v.content}
                           <br />
                           <br />
-                          <small>- {v.owner}</small>
+                          <small>Reward - {v.reward / 1e18} (TOMO)</small>
+                          <br />
+                          <small>Author - {v.owner}</small>
                         </p> :
                         <p className="blockquote blockquote-danger">
                           {v.content}
                           <br />
+                          <small>Reward - {v.reward / 1e18} (TOMO)</small>
                           <br />
-                          <small>- {v.owner}</small>
+                          <small>Author - {v.owner}</small>
                         </p>
                       }
 
